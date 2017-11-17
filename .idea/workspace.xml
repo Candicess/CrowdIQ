@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f78a332-fa28-4ce1-93e0-36bbae6358b7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/RecommendTask/RecommendTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/RecommendTask/RecommendTaskImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.video.play.png" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.video.play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/assets/transparent.png" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/assets/transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/images/gradient/g30.png" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/images/gradient/g30.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/images/gradient/g40.png" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/images/gradient/g40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionsSupport/TranferAnswer.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionsSupport/TranferAnswer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/actions/extend/task/ShowTaskAction.java" afterPath="$PROJECT_DIR$/src/main/java/actions/extend/task/ShowTaskAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domains/RTask.java" afterPath="$PROJECT_DIR$/src/main/java/domains/RTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domains/WTask.java" afterPath="$PROJECT_DIR$/src/main/java/domains/WTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/services/Impl/ParserCrowdIQLServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/services/Impl/ParserCrowdIQLServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/services/Impl/TaskProcessServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/services/Impl/TaskProcessServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/datasourceAndDaos.xml" afterPath="$PROJECT_DIR$/src/main/resources/datasourceAndDaos.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/quartz.properties" afterPath="$PROJECT_DIR$/src/main/resources/quartz.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/servicesAndActions.xml" afterPath="$PROJECT_DIR$/src/main/resources/servicesAndActions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.gitignore" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/CrowdIQPage.iml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/CrowdIQPage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/encodings.xml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/misc.xml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/modules.xml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/vcs.xml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/LICENSE" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/README.md" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/bower.json" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/custom.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/data/flot-data.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/data/flot-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/data/morris-data.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/data/morris-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/css/sb-admin-2.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/css/sb-admin-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/css/sb-admin-2.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/css/sb-admin-2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/js/sb-admin-2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/js/sb-admin-2.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/dist/js/sb-admin-2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITDesign.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITDesign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITOverview.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITOverview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITRevise.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requesterHITRevise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requester_alltask.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requester_alltask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requester_tables.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/requester_tables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/workerHIT.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/workerHIT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/workerTest.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/workerTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_recommendtask.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_recommendtask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_takentask.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_takentask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_testtask.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divjs/worker_testtask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/ajaxfileupload.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/ajaxfileupload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/.bower.json" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/Gruntfile.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/build/release.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/build/release.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/additional-methods.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/additional-methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/additional-methods.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/additional-methods.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/jquery.validate.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/dist/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/accept.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/accept.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/additional.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/additional.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/alphanumeric.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/alphanumeric.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bankaccountNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bankaccountNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bankorgiroaccountNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bankorgiroaccountNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bic.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/bic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/cifES.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/cifES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/cpfBR.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/cpfBR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/creditcard.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/creditcard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/creditcardtypes.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/creditcardtypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/currency.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/currency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateFA.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateFA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateITA.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateITA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/dateNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/extension.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/extension.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/giroaccountNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/giroaccountNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/iban.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/iban.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/integer.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/integer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ipv4.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ipv4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ipv6.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ipv6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/lettersonly.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/lettersonly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/letterswithbasicpunc.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/letterswithbasicpunc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/mobileNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/mobileNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/mobileUK.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/mobileUK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nieES.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nieES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nifES.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nifES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/notEqualTo.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/notEqualTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nowhitespace.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/nowhitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/pattern.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/pattern.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneUK.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneUK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneUS.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phoneUS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phonesUK.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/phonesUK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalCodeCA.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalCodeCA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeBR.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeBR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeIT.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeIT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeNL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postalcodeNL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postcodeUK.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/postcodeUK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/require_from_group.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/require_from_group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/skip_or_fill_minimum.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/skip_or_fill_minimum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/statesUS.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/statesUS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/strippedminlength.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/strippedminlength.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/time.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/time12h.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/time12h.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/url2.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/url2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/vinUS.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/vinUS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/zipcodeUS.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/zipcodeUS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ziprange.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/additional/ziprange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/ajax.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/core.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ar.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_bg.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_bn_BD.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_bn_BD.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_cs.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_da.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_de.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_el.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es_AR.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es_AR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es_PE.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_es_PE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_et.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_eu.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fa.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ge.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_gl.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_he.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hr.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hu.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hy_AM.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_hy_AM.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_id.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_is.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_it.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ja.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ka.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_kk.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_kk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ko.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_lt.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_lv.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_mk.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_my.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_my.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_no.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pt_BR.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pt_BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pt_PT.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_pt_PT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ro.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_si.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sk.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sl.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sr.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sr_lat.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sr_lat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sv.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_th.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_tj.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_tj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_uk.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_zh_TW.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/messages_zh_TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_de.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_es_CL.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_es_CL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_pt.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery-validation/src/localization/methods_pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery.json-viewer.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/jquery.json-viewer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/require.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/divlib/require.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/gulpfile.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/custom.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/js/sb-admin-2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/mixins.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/sb-admin-2.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/sb-admin-2.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/variables.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/package.json" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/index_requester.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/index_requester.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/index_worker.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/index_worker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/requesterHITDesign.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/requesterHITDesign.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/requester_alltask.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/requester_alltask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/sign-in.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/sign-in.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/sign-up.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/sign-up.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_recommendtask.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_recommendtask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_takentask.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_takentask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_testtask.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/pages/worker_testtask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-plugins/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap4.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap4.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.foundation.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.foundation.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.jqueryui.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.jqueryui.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.material.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.material.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.material.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.semanticui.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.semanticui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.semanticui.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.uikit.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.uikit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.uikit.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables_themeroller.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap4.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap4.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.foundation.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.foundation.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.jqueryui.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.jqueryui.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.material.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.material.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.material.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.semanticui.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.semanticui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.semanticui.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.uikit.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.uikit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.uikit.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/datatables/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/excanvas.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/excanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.colorhelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.canvas.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.categories.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.errorbars.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.fillbetween.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.image.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.navigate.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.navigate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.pie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.selection.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.selection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.symbol.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.symbol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.threshold.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.threshold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.flot.time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/flot/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/extras.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/extras.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/screen-reader.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_extras.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_extras.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/metisMenu/metisMenu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/morrisjs/morris.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/raphael/raphael.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/raphael/raphael.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/raphael/raphael.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendor/raphael/raphael.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/animate/animate.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/animate/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/circliful/css/jquery.circliful.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/circliful/css/jquery.circliful.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/gmap3/js/gmap3.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/gmap3/js/gmap3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/all.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/_all.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/aero.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/blue.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/flat.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/flat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/green.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/grey.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/orange.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/pink.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/purple.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/red.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/yellow.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/flat/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/futurico/futurico.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/futurico/futurico.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/_all.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/aero.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/blue.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/green.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/grey.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/line.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/line.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/orange.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/pink.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/purple.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/red.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/yellow.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/line/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/_all.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/aero.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/blue.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/green.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/grey.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/minimal.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/minimal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/orange.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/pink.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/purple.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/red.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/yellow.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/minimal/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/polaris/polaris.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/polaris/polaris.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/_all.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/aero.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/blue.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/green.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/grey.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/orange.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/pink.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/purple.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/red.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/square.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/square.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/yellow.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/css/square/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/js/icheck.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/iCheck/js/icheck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/imagehover/css/imagehover.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/imagehover/css/imagehover.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/isotope/js/isotope.pkgd.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/isotope/js/isotope.pkgd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/jquery_newsTicker/js/newsTicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/jquery_newsTicker/js/newsTicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/jribbble/js/jribbble.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/jribbble/js/jribbble.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.carousel.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.theme.green.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/css/owl.theme.green.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/owlcarousel/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/plyr/js/plyr.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/plyr/js/plyr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/layers.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/layers.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/navigation.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/settings.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/css/settings.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/js/jquery.themepunch.revolution.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/js/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/revolution-slider/js/jquery.themepunch.tools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/select2/css/select2.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/select2/css/select2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/select2/js/select2.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/select2/js/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/swiper/css/swiper.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/swiper/css/swiper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/swiper/js/swiper.jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/swiper/js/swiper.jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/wow/css/animate.css" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/wow/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/wow/js/wow.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/CrowdIQPage/vendors/wow/js/wow.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Algorithm_Process/Exist.java" afterPath="$PROJECT_DIR$/src/test/java/Algorithm_Process/Exist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dataSource/InsertTestTask.java" afterPath="$PROJECT_DIR$/src/test/java/dataSource/InsertTestTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xyh/CrowdIQ/pom.properties" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xyh/CrowdIQ/pom.properties" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RequesterTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domains/RequesterTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="26" />
+    <option name="width" value="1400" />
+    <option name="height" value="797" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f78a332-fa28-4ce1-93e0-36bbae6358b7" name="Default" comment="" />
+      <created>1510798967281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510798967281</updated>
+      <workItem from="1510798976251" duration="4000" />
+      <workItem from="1510798986348" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="7" y="26" width="1400" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domains/RequesterTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

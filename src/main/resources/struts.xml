@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+ <struts>
+ 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />  
+    <constant name="struts.devMode" value="true" /> 
+    
+    <package name="CrowdIQ" namespace='' extends="json-default">
+           
+      	<!-- 质量检测，返回检测结果 -->
+      	<action name="inspectionAction" class="InspectionAction">
+      		<result type="json">
+      			<param name="root">problems</param>
+      		</result>
+      	</action>
+      	
+      	<!-- 解析语言，返回解析出来的元素 -->
+      	<action name="parserCrowdIQLAction" class="ParserCrowdIQLAction">
+      		<result type="json">
+      			<param name="root">elements</param>
+      		</result>
+      	</action>
+      	
+      	<!-- 上传文件，无返回结果 -->
+      	<action name="uploadFileAction" class="UploadFileAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+        
+	    <!--  完成测试题，无返回结果 -->
+        <action name="finishTestTaskAction" class="FinishTestTaskAction">
+        	<result name="success"  type="json"></result>
+      		<result name="error"></result>
+        </action> 
+        
+        <!-- 雇主、工人登录，返回ID号 -->
+      	<action name="loginAction" class="LoginAction">
+      		<result name="success"  type="json">
+      			<param name="root">userID</param>
+      		</result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	 <!-- 获取登录信息 -->
+      	<action name="loginInfoAction" class="LoginInfoAction">
+      		<result name="success"  type="json">
+      			<param name="root">showinformation</param>
+      		</result>
+      		<result name="error"></result>
+      	</action>
+      	
+        
+        <!-- 雇主工人注册，没返回结果 -->
+        <action name="registerAction" class="RegisterAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+        
+        <!-- 工人请求查看所有的测试任务，返回对应所有测试任务数据 -->
+        <action name="showAllTestTaskAction" class="ShowAllTestTaskAction">
+        	<result type="json">
+                <param name="root">taskInfo</param>
+            </result>  
+        </action>     
+        
+        <!-- 工人请求做某个任务，返回该任务具体数据 -->
+      	<action name="testTaskAction" class="TestTaskAction">
+        	<result type="json">
+                <param name="root">taskJSON</param>
+            </result>  
+        </action>     
+        
+        <!-- 工人请求查看某个测试任务（已完成的），返回该任务具体数据（任务详情，任务答案） -->
+      	<action name="showDoneTestTaskAction" class="ShowDoneTestTaskAction">
+        	<result type="json">
+                <param name="root">taskJSON</param>
+            </result>  
+        </action>     
+        
+        <!-- 雇主请求删除对应的表， 无返回结果-->
+        <action name="deleteTableAction" class="DeleteTableAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+        
+        
+        <!-- 雇主请求下载某任务对应的表， 无返回结果-->
+        <action name="downloadTableAction" class="DownloadTableAction">
+      		<result name="success" type="stream">  
+                <param name="contentType">application/octet-stream</param>  
+                <param name="inputName">inputStream</param> 
+                <param name="contentDisposition">attachment;filename="${tablename}"</param>  
+                <param name="bufferSize">4096</param>  
+            </result>  
+      	</action>
+        
+        <!-- 雇主读取对应数据库中某表格，返回表对应json数据 -->
+        <action name="readDBTableAction" class="ReadDBTableAction">
+        	<result type="json">
+                <param name="root">jsonTable</param>
+            </result>  
+        </action>     
+        
+      	<!-- 雇主查看数据库中所有自己对应的表格，返回所有对应表的ID号供雇主选择 -->
+        <action name="showDBTableAction" class="ShowDBTableAction">
+        	<result type="json">
+                <param name="root">tableInfo</param>
+            </result>  
+        </action>     
+        
+      	<!-- 雇主\工人请求删除某任务, 无返回结果-->
+        <action name="deleteTaskAction" class="DeleteTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 雇主根据ID号查看某任务具体情况 -->
+      	<action name="showTaskAction" class="ShowTaskAction">
+        	<result type="json">
+                <param name="root">taskJSON</param>
+            </result>  
+        </action>     
+      	
+      	<!-- 雇主确定任务UI，返回更详细的任务情况 -->
+      	<action name="buildTaskAction" class="BuildTaskAction">
+        	<result type="json">
+                <param name="root">taskJSON</param>
+            </result>  
+        </action> 
+        
+        <!-- 雇主确定完某任务所有元素提交确定, 无返回结果-->
+        <action name="commitTaskAction" class="CommitTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 雇主确定完某任务所有元素提交确定, 无返回结果-->
+        <action name="commitEditTaskAction" class="CommitEditTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	
+      	<!-- 雇主根据ID号请求修改某任务，返回该任务所有参数值 -->
+      	<action name="editTaskAction" class="EditTaskAction">
+      		<result name="success"  type="json">
+      			<param name="root">taskJSON</param>
+      		</result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 雇主根据ID号请求暂停某任务，无返回值 -->
+      	<action name="pauseTaskAction" class="PauseTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 雇主请求发布某任务，无返回值 -->
+      	<action name="publishTaskAction" class="PublishTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 雇主请求查看所有任务的简要情况，返回json数据 -->
+      	<action name="showAllRTaskAction" class="ShowAllRTaskAction">
+        	<result type="json">
+                <param name="root">tasksInfo</param>
+            </result>  
+        </action>  	
+        
+       <!--  雇主查看最新的消息  -->
+        <action name="showLastestMAction" class="ShowLastestMAction">
+        	<result type="json">
+                <param name="root">messages</param>
+            </result>  
+        </action>  	
+        
+      	<!-- 工人根据ID号完成某任务提交自己的答案，无返回值 -->
+      	<action name="finishTaskAction" class="FinishTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	<!-- 工人请求查看推荐任务的简要信息，返回json数据 -->
+      	<action name="showRecommendTaskAction" class="ShowRecommendTaskAction">
+      		<result type="json">
+                <param name="root">taskInfo</param>
+            </result>
+      	</action>
+      	
+      	<!-- 工人查看所有已收录的任务 -->
+      	<action name="showTakenTaskAction" class="ShowTakenTaskAction">
+      		<result type="json">
+                <param name="root">taskInfo</param>
+            </result>
+      	</action>
+      	
+      	
+      	<!-- 工人根据ID号收录某任务，无返回值 -->
+      	<action name="takeTaskAction" class="TakeTaskAction">
+      		<result name="success"  type="json"></result>
+      		<result name="error"></result>
+      	</action>
+      	
+      	
+      	
+    
+      	
+      	
+       	
+        <action name="*">
+    		<result>CrowdIQPage/index.html</result>
+        </action>
+        
+    </package>
+
+   
+</struts>

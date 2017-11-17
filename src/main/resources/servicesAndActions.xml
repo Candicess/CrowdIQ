@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<import resource="datasourceAndDaos.xml"></import>
+	
+	<!--配置service , property中写的应该是类中属性的名字，而不是属性的类别，类别可以相同，名字必须不同
+	=========================================================================================== -->
+	<bean id="InspectionService" class="services.Impl.InspectionServiceImpl"></bean>
+	
+	<bean id="ReadTableService" class="services.Impl.ReadTableServiceImpl">
+		<property name="InspectionService" ref="InspectionService"></property>
+		<property name="parserCrowdIQLService" ref="ParserCrowdIQLService"></property>
+		<property name="rtableDao" ref="RTableDao"></property>
+		<property name="rtaskDao" ref="RTaskDao"></property>
+		<property name="rtableListDao" ref="RTableListDao"></property>
+	</bean>
+	
+	<bean id="RegisterService" class="services.Impl.RegisterServiceImpl">
+		<property name="requesterDao" ref="RequesterDao"></property>
+		<property name="workerDao" ref="WorkerDao"></property>
+		<property name="testtaskDao" ref="TestTaskDao"></property>
+		<property name="workertesttaskDao" ref="WorkerTestTaskDao"></property>
+		<property name="requestertaskDao" ref="RequesterTaskDao"></property>
+		<property name="rtaskDao" ref="RTaskDao"></property>
+		<property name="rtableDao" ref="RTableDao"></property>
+		<property name="ralgorithmDao" ref="RAlgorithmDao"></property>
+		<property name="rtableListDao" ref="RTableListDao"></property>
+		<property name="wtaskDao" ref="WTaskDao"></property>
+		<property name="workerRTaskDao" ref="WorkerRTaskDao"></property>
+	</bean>
+	
+	<bean id="ParserCrowdIQLService" class="services.Impl.ParserCrowdIQLServiceImpl">
+		<property name="rAlgorithmDao" ref="RAlgorithmDao"></property>
+		<property name="rTableDao" ref="RTableDao"></property>
+		<property name="rTableListDao" ref="RTableListDao"></property>
+	</bean>
+	
+	<bean id="TaskProcessService" class="services.Impl.TaskProcessServiceImpl">
+		<property name="parserCrowdIQLService" ref="ParserCrowdIQLService"></property>
+		<property name="rtaskDao" ref="RTaskDao"></property>
+		<property name="wtaskDao" ref="WTaskDao"></property>
+		<property name="requestertaskDao" ref="RequesterTaskDao"></property>
+		<property name="workerDao" ref="WorkerDao"></property>
+		<property name="requesterDao" ref="RequesterDao"></property>
+		<property name="workerRTaskDao" ref="WorkerRTaskDao"></property>
+		<property name="answerCompareDao" ref="AnswerCompareDao"></property>
+		<property name="mulAnswerCompareDao" ref="MulAnswerCompareDao"></property>
+	</bean>
+	
+	
+	<!-- 配置action 
+   =================================================================================== -->
+   
+   <!-- 制作模板Action,其实就是为基类准备的 -->
+	<bean id="InspectionAndReadTableAction" abstract="true" scope="prototype">
+		<property name="InService" ref="InspectionService"></property>
+		<property name="ReadService" ref="ReadTableService"></property>
+	</bean>
+	
+	<bean id="ParserCrowdIQLBaseAction" abstract="true" scope="prototype">
+		<property name="ParserService" ref="ParserCrowdIQLService"></property>
+		<property name="ReadService" ref="ReadTableService"></property>
+	</bean>
+	
+	<bean id="RegisterBaseAction" abstract="true" scope="prototype">
+		<property name="RegisterService" ref="RegisterService"></property>
+	</bean>
+	
+	<bean id="TaskProcessAction" abstract="true" scope="prototype">
+		<property name="TaskProcessService" ref="TaskProcessService"></property>
+	</bean>
+	
+	
+	
+	<bean id="InspectionAction" class="actions.extend.InspectionAction" parent="InspectionAndReadTableAction"></bean>
+	
+	<bean id="ParserCrowdIQLAction" class="actions.extend.ParserCrowdIQLAction" parent="ParserCrowdIQLBaseAction"></bean>
+	<bean id="UploadFileAction" class="actions.extend.UploadFileAction" parent="ParserCrowdIQLBaseAction"></bean>
+	
+	<bean id="FinishTestTaskAction" class="actions.extend.register.FinishTestTaskAction" parent="RegisterBaseAction"></bean>
+	<bean id="LoginAction" class="actions.extend.register.LoginAction" parent="RegisterBaseAction"></bean>
+	<bean id="LoginInfoAction" class="actions.extend.register.LoginInfoAction" parent="RegisterBaseAction"></bean>
+	<bean id="RegisterAction" class="actions.extend.register.RegisterAction" parent="RegisterBaseAction"></bean>
+	<bean id="ShowAllTestTaskAction" class="actions.extend.register.ShowAllTestTaskAction" parent="RegisterBaseAction"></bean>
+	<bean id="TestTaskAction" class="actions.extend.register.TestTaskAction" parent="RegisterBaseAction"></bean>
+	<bean id="ShowDoneTestTaskAction" class="actions.extend.register.ShowDoneTestTaskAction" parent="RegisterBaseAction"></bean>
+	
+	<bean id="DeleteTableAction" class="actions.extend.table.DeleteTableAction" parent="InspectionAndReadTableAction"></bean>
+	<bean id="DownloadTableAction" class="actions.extend.table.DownloadTableAction" parent="InspectionAndReadTableAction"></bean>
+	<bean id="ReadDBTableAction" class="actions.extend.table.ReadDBTableAction" parent="InspectionAndReadTableAction"></bean>
+	<bean id="ShowDBTableAction" class="actions.extend.table.ShowDBTableAction" parent="InspectionAndReadTableAction"></bean>
+	
+	<bean id="DeleteTaskAction" class="actions.extend.task.DeleteTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="ShowTaskAction" class="actions.extend.task.ShowTaskAction" parent="TaskProcessAction"></bean>
+	
+	<bean id="BuildTaskAction" class="actions.extend.task.requester.BuildTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="CommitTaskAction" class="actions.extend.task.requester.CommitTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="CommitEditTaskAction" class="actions.extend.task.requester.CommitEditTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="EditTaskAction" class="actions.extend.task.requester.EditTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="PauseTaskAction" class="actions.extend.task.requester.PauseTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="PublishTaskAction" class="actions.extend.task.requester.PublishTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="ShowAllRTaskAction" class="actions.extend.task.requester.ShowAllRTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="ShowLastestMAction" class="actions.extend.task.requester.ShowLastestMAction" parent="TaskProcessAction"></bean>
+	
+	<bean id="FinishTaskAction" class="actions.extend.task.worker.FinishTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="TakeTaskAction" class="actions.extend.task.worker.TakeTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="ShowRecommendTaskAction" class="actions.extend.task.worker.ShowRecommendTaskAction" parent="TaskProcessAction"></bean>
+	<bean id="ShowTakenTaskAction" class="actions.extend.task.worker.ShowTakenTaskAction" parent="TaskProcessAction"></bean>
+	
+</beans>
